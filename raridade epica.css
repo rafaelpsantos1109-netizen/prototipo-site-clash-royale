@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #420552, #5252d4);
+    background-size: 400% 400%;
+    animation: led_efeito 7s ease infinite;
+}
+
+@keyframes led_efeito {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+header {
+    background-color:rgb(166, 17, 224);
+    border-radius: 4cap;
+
+}
